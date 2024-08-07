@@ -14,8 +14,8 @@ and install it. After that you can install the skin directly from the repository
 ## Installation from Git ##
 
 If you want to install the latest version from Git (before this has added to Kodinerds Repo) just download the Addon from here 
-https://github.com/b-jesch/skin.estuary.mod_v2/tree/Omega (green Code button), **rename the root folder inside the ZIP** 
-from ```skin.estuary.mod_v2-Omega``` to ```skin.estuary.mod_v2``` and choose 'install from zip' inside Kodi. **Renaming 
+https://github.com/b-jesch/skin.estuary.modv2/tree/Omega (green Code button), **rename the root folder inside the ZIP** 
+from ```skin.estuary.modv2-Omega``` to ```skin.estuary.modv2``` and choose 'install from zip' inside Kodi. **Renaming 
 the root folder inside the ZIP needs unpacking/packing the zip in some cases.**
 
 ### File name flagging ###

@@ -1,11 +1,11 @@
 # Kodi Media Center language file
 # Addon Name: Estuary MOD v2
-# Addon id: skin.estuary.mod_v2
+# Addon id: skin.estuary.modv2
 # Addon Provider: Guilouz, PvD
 msgid ""
 msgstr ""
 "Project-Id-Version: Skin Estuary MOD V2 for KODI 20 Nexus KN Edition\n"
-"Report-Msgid-Bugs-To: https://github.com/b-jesch/skin.estuary.mod_v2\n"
+"Report-Msgid-Bugs-To: https://github.com/b-jesch/skin.estuary.modv2\n"
 "POT-Creation-Date: 2023-11-15 23:32+2\n"
 "PO-Revision-Date: 2023-11-26 20:47+0000\n"
 "Last-Translator: Weblate Admin <weblate@example.com>\n"
