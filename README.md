@@ -14,7 +14,8 @@ Modded version of Estuary Mod V2.
 	- (future) Make adjustable
 - Added adjustable video and fanart opacity to backgrounds
 - Other minor bug fixes
-![screenshot_1](/resources/screenshots/screenshot_1.png?raw=true "Beach")
+# Beach
+![screenshot_1](/resources/screenshots/screenshot_1.png?raw=true)
 ![screenshot_2](/resources/screenshots/screenshot_2.png?raw=true)
 ![screenshot_3](/resources/screenshots/screenshot_3.png?raw=true)
 ![screenshot_4](/resources/screenshots/screenshot_4.png?raw=true)
