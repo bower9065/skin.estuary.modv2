@@ -2,8 +2,8 @@
 
 Modded version of Estuary Mod V2.
 
-- Added holiday and seasonal Themes (American)
-	- use "script.estuary.modv2_theme_selector" to change theme settings from Home Assistant
+- Added holiday and seasonal themes (American)
+	- use [script.estuary.modv2_theme_selector](https://github.com/bower9065/script.estuary.modv2_theme_selector) to change theme settings from Home Assistant
 - Fixed play trailers in fullscreen mode
 - Playing trailers shows small OSD (No artwork to show anyways)
 - Removed play from resume point button from video info (Kodi asks anyways)
