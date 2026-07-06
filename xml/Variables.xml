@@ -1170,36 +1170,36 @@
 		<value>dialog_tint</value>
 	</variable>
 	<variable name="SkinColorVar">
-		<value condition="Skin.HasSetting(Christmas) + Skin.HasSetting(HolidayThemes)">fff54040</value>
-		<value condition="Skin.HasSetting(Halloween) + Skin.HasSetting(HolidayThemes)">fff76b00</value>
-		<value condition="Skin.HasSetting(Easter) + Skin.HasSetting(HolidayThemes)">ff009ba3</value>
+		<value condition="Skin.HasSetting(Christmas) + Skin.HasSetting(HolidayThemes)">ff00942a</value>
+		<value condition="Skin.HasSetting(Halloween) + Skin.HasSetting(HolidayThemes)">fff7a900</value>
+		<value condition="Skin.HasSetting(Easter) + Skin.HasSetting(HolidayThemes)">fff58ce7</value>
 		<value condition="Skin.HasSetting(ValentinesDay) + Skin.HasSetting(HolidayThemes)">fffc198f</value>
 		<value condition="Skin.HasSetting(StPatricksDay) + Skin.HasSetting(HolidayThemes)">ffceff1d</value>
-		<value condition="Skin.HasSetting(Thanksgiving) + Skin.HasSetting(HolidayThemes)">fff76b00</value>
+		<value condition="Skin.HasSetting(Thanksgiving) + Skin.HasSetting(HolidayThemes)">fff7a900</value>
 		<value condition="Skin.HasSetting(Autumn) + Skin.HasSetting(HolidayThemes)">fff76b00</value>
-		<value condition="Skin.HasSetting(Winter) + Skin.HasSetting(HolidayThemes)">ffbac5f5</value>
-		<value condition="Skin.HasSetting(4thOfJuly) + Skin.HasSetting(HolidayThemes)">ff919dfa</value>
-		<value condition="Skin.HasSetting(NewYearsEve) + Skin.HasSetting(HolidayThemes)">fff0b905</value>
-		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">ff89f571</value>
-		<value condition="Skin.HasSetting(Spring) + Skin.HasSetting(HolidayThemes)">ff78ccfa</value>
-		<value condition="Skin.HasSetting(Beach) + Skin.HasSetting(HolidayThemes)">ff78ccfa</value>
+		<value condition="Skin.HasSetting(Winter) + Skin.HasSetting(HolidayThemes)">ffd7defc</value>
+		<value condition="Skin.HasSetting(4thOfJuly) + Skin.HasSetting(HolidayThemes)">ffd90d2b</value>
+		<value condition="Skin.HasSetting(NewYearsEve) + Skin.HasSetting(HolidayThemes)">ffe0ac02</value>
+		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">ffdeac04</value>
+		<value condition="Skin.HasSetting(Spring) + Skin.HasSetting(HolidayThemes)">ff71d66d</value>
+		<value condition="Skin.HasSetting(Beach) + Skin.HasSetting(HolidayThemes)">ff63e0b7</value>
 		<value condition="!String.IsEmpty(Skin.String(SkinColor))">$INFO[Skin.String(SkinColor)]</value>
 		<value>button_focus</value>
 	</variable>
 	<variable name="GradientColorVar">
 		<value condition="Skin.HasSetting(Christmas) + Skin.HasSetting(HolidayThemes)">ff7d0006</value>
-		<value condition="Skin.HasSetting(Halloween) + Skin.HasSetting(HolidayThemes)">fff7a900</value>
+		<value condition="Skin.HasSetting(Halloween) + Skin.HasSetting(HolidayThemes)">ffb402eb</value>
 		<value condition="Skin.HasSetting(Easter) + Skin.HasSetting(HolidayThemes)">ff8dfcf5</value>
 		<value condition="Skin.HasSetting(ValentinesDay) + Skin.HasSetting(HolidayThemes)">fffaa0cf</value>
 		<value condition="Skin.HasSetting(StPatricksDay) + Skin.HasSetting(HolidayThemes)">ff158078</value>
-		<value condition="Skin.HasSetting(Thanksgiving) + Skin.HasSetting(HolidayThemes)">fff7a900</value>
-		<value condition="Skin.HasSetting(Autumn) + Skin.HasSetting(HolidayThemes)">fff7a900</value>
+		<value condition="Skin.HasSetting(Thanksgiving) + Skin.HasSetting(HolidayThemes)">ffdb3300</value>
+		<value condition="Skin.HasSetting(Autumn) + Skin.HasSetting(HolidayThemes)">fff7c457</value>
 		<value condition="Skin.HasSetting(Winter) + Skin.HasSetting(HolidayThemes)">ff4662eb</value>
 		<value condition="Skin.HasSetting(4thOfJuly) + Skin.HasSetting(HolidayThemes)">ff001dff</value>
-		<value condition="Skin.HasSetting(NewYearsEve) + Skin.HasSetting(HolidayThemes)">ffede27e</value>
-		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">ff01630b</value>
-		<value condition="Skin.HasSetting(Spring) + Skin.HasSetting(HolidayThemes)">ff006fab</value>
-		<value condition="Skin.HasSetting(Beach) + Skin.HasSetting(HolidayThemes)">ff006fab</value>	
+		<value condition="Skin.HasSetting(NewYearsEve) + Skin.HasSetting(HolidayThemes)">ffb0afac</value>
+		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">fffae6a7</value>
+		<value condition="Skin.HasSetting(Spring) + Skin.HasSetting(HolidayThemes)">ffa7d9a5</value>
+		<value condition="Skin.HasSetting(Beach) + Skin.HasSetting(HolidayThemes)">ff42b1ed</value>	
 		<value condition="!String.IsEmpty(Skin.String(GradientColor))">$INFO[Skin.String(GradientColor)]</value>
 		<value>gradient_focus</value>
 	</variable>
