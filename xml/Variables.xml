@@ -5,7 +5,7 @@
 			<value condition="!String.IsEmpty(Window(home).Property(NextUpNotification.NowPlaying.Type)) + String.IsEqual(Window(home).Property(NextUpNotification.NowPlaying.Type),episode) + Integer.IsGreater(Window(home).Property(NextUpNotification.NowPlaying.DBID),-1)">plugin://script.embuary.helper?info=getcast&amp;dbid=$INFO[Window(home).Property(NextUpNotification.NowPlaying.DBID)]&amp;idtype=episode</value>
 			<value condition="VideoPlayer.Content(movies) + !String.IsEmpty(VideoPlayer.DBID)">plugin://script.embuary.helper?info=getcast&amp;type=movie&amp;dbid=$INFO[VideoPlayer.DBID]</value>
 			<value condition="VideoPlayer.Content(movies) + String.IsEmpty(VideoPlayer.DBID)">plugin://script.embuary.helper?info=getcast&amp;type=movie&amp;title=$INFO[VideoPlayer.Title]</value>
-			<value condition="VideoPlayer.Content(episodes) + !String.IsEmpty(VideoPlayer.DBID)">plugin://script.embuary.helper?info=getcast&amp;type=episode&amp;dbid=$INFO[VideoPlayer.DBID]&amp;idtype=episode</value>
+			<value condition="VideoPlayer.Content(episodes) + !String.IsEmpty(VideoPlayer.DBID)">plugin://script.embuary.helper?info=getcast&type=tvshow&dbid=$INFO[VideoPlayer.TVShowDBID]&idtype=tvshow</value>
 			<value condition="VideoPlayer.Content(episodes) + String.IsEmpty(VideoPlayer.DBID)">plugin://script.embuary.helper?info=getcast&amp;type=tvshow&amp;title=$INFO[VideoPlayer.TvShowTitle]</value>
 			<value condition="VideoPlayer.Content(livetv)">plugin://script.embuary.helper?info=getcast&amp;type=movie&amp;title=$INFO[VideoPlayer.Title]</value>
 	</variable>
@@ -1180,7 +1180,7 @@
 		<value condition="Skin.HasSetting(Winter) + Skin.HasSetting(HolidayThemes)">ffd7defc</value>
 		<value condition="Skin.HasSetting(4thOfJuly) + Skin.HasSetting(HolidayThemes)">ffd90d2b</value>
 		<value condition="Skin.HasSetting(NewYearsEve) + Skin.HasSetting(HolidayThemes)">ffe0ac02</value>
-		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">ffdeac04</value>
+		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">fffcdf83</value>
 		<value condition="Skin.HasSetting(Spring) + Skin.HasSetting(HolidayThemes)">ff71d66d</value>
 		<value condition="Skin.HasSetting(Beach) + Skin.HasSetting(HolidayThemes)">ff63e0b7</value>
 		<value condition="!String.IsEmpty(Skin.String(SkinColor))">$INFO[Skin.String(SkinColor)]</value>
@@ -1197,7 +1197,7 @@
 		<value condition="Skin.HasSetting(Winter) + Skin.HasSetting(HolidayThemes)">ff4662eb</value>
 		<value condition="Skin.HasSetting(4thOfJuly) + Skin.HasSetting(HolidayThemes)">ff001dff</value>
 		<value condition="Skin.HasSetting(NewYearsEve) + Skin.HasSetting(HolidayThemes)">ffb0afac</value>
-		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">fffae6a7</value>
+		<value condition="Skin.HasSetting(Summer) + Skin.HasSetting(HolidayThemes)">ffdeac04</value>
 		<value condition="Skin.HasSetting(Spring) + Skin.HasSetting(HolidayThemes)">ffa7d9a5</value>
 		<value condition="Skin.HasSetting(Beach) + Skin.HasSetting(HolidayThemes)">ff42b1ed</value>	
 		<value condition="!String.IsEmpty(Skin.String(GradientColor))">$INFO[Skin.String(GradientColor)]</value>
